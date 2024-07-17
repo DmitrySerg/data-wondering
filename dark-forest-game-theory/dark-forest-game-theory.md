@@ -169,12 +169,12 @@ We are now entering a domain of games with incomplete information, where players
 
 Let's analyse this scenario from a positoin of a civilization receiving the signal, $C_2$. As the civilisation listens to a message from dark corners of the universe, it starts wondering. Who is the sender? What are their intentions? What kind of technological level they had achieved by the time the message was sent? And finally, what should the people of $C_2$ do about it?
 
-As we have seen form the previous outcomes, peace is rarely an option. If $C_2$ decides to reply and reveal itself, the best-case scenario is for $C_1$ to be either equally strong to engage in fragile deterrence or weaker to be occupied. But what if it's already stronger? Or if it will have become stronger when the reply reaches them? Is this all a [trap?](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHBvb3dzYmM1OWRvanllcWlsa2N3cWg1bmc3andhcDFoZXkzcml5YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ornka9rAaKRA2Rkac/giphy.gif) A way to lure other civilizations out of hiding and then consume them? The uncertainty is terrifying.
+As we have seen form the previous outcomes, [peace is rarely an option](https://i.kym-cdn.com/entries/icons/original/000/018/215/cover8.jpg). If $C_2$ decides to reply and reveal itself, its best-case scenario is for $C_1$ to be either equally strong to engage in fragile deterrence or weaker to be occupied. But what if it's stronger? Or if it will have become stronger when the reply reaches them? Is this all a [trap?](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHBvb3dzYmM1OWRvanllcWlsa2N3cWg1bmc3andhcDFoZXkzcml5YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ornka9rAaKRA2Rkac/giphy.gif) A way to lure other civilizations out of hiding and then consume them? The uncertainty is terrifying.
 
 Let $p$ be the belief probability that $C_1$ is weaker, $q$ be the belief that it's equally strong and $1-p-q$ that it's stronger. Based on the results form out previous analyses, the payoffs for $C_2$ would be: 
-- $F_2$ in case $C_1$ is weaker
-- $f_2$ in case $C_1$ is equally strong
-- $-D_2$ in case $C_1$ is stronger
+- $F_2$ in case $C_1$ is weaker, ($C_2$ occupies/consumes/destroys $C_1$)
+- $f_2$ in case $C_1$ is equally strong (fragile deterrence)
+- $-D_2$ in case $C_1$ is stronger ($C_2$ gets occupied/consumed/destroyed)
 
 Putting it all together and using belief probabilities as weights, we get the final payoff for $C_2$ as a function of $p$ and $q$:
 
@@ -195,7 +195,7 @@ Now before we finalise our journey through the tree, let's see how we can get to
 
 # Extending to N civilizations
 
-So far we have been considering a game between two civilizations. Finally, we'll extend the game and welcome more alien participants. $C_1$ still has an option to send our a signal, but now there are countless civilizations listening. Each of them has to make a decision based on the beliefs about the strength of the sender and the potential threats it poses.
+So far we have been considering a game between two civilizations. But in the observable universe there are billions of stars, planets, and potentially civilizations. We finally extend the game and welcome many more alien participants. $C_1$ still has an option to send our a signal, but now there are countless civilizations listening. If they recieve a signal, they have to make a decision based on the beliefs about the strength of the sender and the potential threats it poses.
 
 Let's introduce a few variables:
 
@@ -204,11 +204,11 @@ Let's introduce a few variables:
 - $N$ is the total number of civilizations that got the message from $C_1$
 ​
 
-Now with those variables in mind, we can say that there should be $pN$ civilizations that are equal to or weaker than $C_1$ and $(1-p)N$ civilizations that are stronger. From our previous analysis we know that the equilibrium outcome for $C_1$ when it encounters a weaker civilization is $F_1$, for an equally strong civilization is $f_1$, and for a stronger civilization is $-D_1$, where $D_1 \rightarrow \infty$. 
+Now with those variables in mind, we can say that there should be $pN$ civilizations that are equal to or weaker than $C_1$ and $(1-p)N$ civilizations that are stronger. From our previous analysis we know that the equilibrium outcome for $C_1$ when it encounters a weaker civilization is $F_1$, for an equally strong civilization is $f_1$, and for a stronger civilization is either $-D_1$ if the stronger one decides to occupy, where $D_1 \rightarrow \infty$, or simply $-\infty$ if it immediately decides to destroy $C_1$. 
 
-To make the analysis simpler, let's say that encountering a weaker or equally strong civilization is generally a positive case for $C_1$, and the payoff could be some probability function of $F_1$ and $f_1$: $P_1(f_1, F_1) \geq 0$. Since there are $pN$ such civilizations, and chances of encountering them are completely independent, the total payoff for $C_1$ would be $pN \cdot P_1(f_1, F_1)$.
+To make the analysis simpler, let's say that encountering a weaker or equally strong civilization is generally a positive case for $C_1$, and the payoff could be some probability-weighted function of $F_1$ and $f_1$: $P_1(f_1, F_1) \geq 0$. Since there are $pN$ such civilizations, and chances of encountering them are completely independent, the total positive payoff for $C_1$ would be $pN \cdot P_1(f_1, F_1)$.
 
-On the other hand, getting exposed to a stronger civilization might end up in total destruction, and the fact that there might be $(1-p)N$ of them does not make things easier for poor $C_1$. The payoff for $C_1$ in this case would be $(1-p)N \cdot (-D_1)$.
+On the other hand, getting exposed to a stronger civilization ends up in either desctruction or occupation, and the fact that out there might be $(1-p)N$ of strong ones does not make things easier for feeble $C_1$. The negative payoff could be another probability-weighted function, depending on the choice of the stronger civilization. For simplicity, let's say that it's always $-D_1$, so the total payoff for $C_1$ in this case would be $(1-p)N \cdot (-D_1)$.
 
 Combining the two terms together, we get the total payoff for $C_1$ after sending out a signal:
 $$
@@ -229,18 +229,25 @@ $$
 
 This means that as long as there is a singe strong civilization capable of figuring out the location of $C_1$, the total payoff for $C_1$ would be infinitely negative. Only a very naive civilization that either thinks it's the strongest in the universe or is completely ignorant of the potential threats would be willing to initiate contact.
 
-And so the Dark Forest theory unfolds. The universe is a dark forest, full of hidden civilizations, each trying to survive and expand, and each ready to destroy any potential threat. The only way to survive is to stay silent and hidden, and the only way to expand is to destroy others before they have a chance to do the same to you.
+But wait, there is a civilization like that. It's us.
+
+<p align="center">
+<img src="images/Ben_kenobi.png" alt="drawing" style="width:400px;"/>
+</p>
 
 
+<!-- Important! The civilization that fears the dark forest is bening, but ones that do not fear would exapd, attack, and destroy others and so are evil and must be eliminated.
 
-
-
-Important! The civilization that fears the dark forest is bening, but ones that do not fear would exapd, attack, and destroy others and so are evil and must be eliminated.
-
-In the eyes of external observer, who would dare to broadcast their location?
+In the eyes of external observer, who would dare to broadcast their location? -->
 
 
 # How screwed are we? 
+
+Humanity has been whispering into the void ever since the first radio waves started travelling through space. Most of the signals that leaked into the universe were not intentionally sent to communicate with extraterrestrial civilizations, but rather a byproduct of our technological progress. However, some attempts were symbolically intentional, like the [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) or the [Voyager Golden Record](https://en.wikipedia.org/wiki/Voyager_Golden_Record). 
+
+Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math to estimate first 
+
+But let's imagine that a wise and technologically advanced civilization would invest a lot of resourced into building the most sensitive equipment to detect even the faintest signals from the universe. After all, their survival depends on it. 
 
 - estimate the distance travelled by first radiowaves
 - estimate how many starts/planets/civilizations could be in the area
