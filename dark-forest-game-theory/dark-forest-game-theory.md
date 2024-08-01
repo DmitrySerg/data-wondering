@@ -245,13 +245,37 @@ In the eyes of external observer, who would dare to broadcast their location? --
 
 Humanity has been whispering into the void ever since the first radio waves started travelling through space. Most of the signals that leaked into the universe were not intentionally sent to communicate with extraterrestrial civilizations, but rather a byproduct of our technological progress. However, some attempts were symbolically intentional, like the [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) or the [Voyager Golden Record](https://en.wikipedia.org/wiki/Voyager_Golden_Record). 
 
-Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math to estimate first 
+Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math and estimate what would be re required power 
 
 But let's imagine that a wise and technologically advanced civilization would invest a lot of resourced into building the most sensitive equipment to detect even the faintest signals from the universe. After all, their survival depends on it. 
 
 - estimate the distance travelled by first radiowaves
 - estimate how many starts/planets/civilizations could be in the area
 - etc. 
+
+Since the introduction of radio waves, the signals have been travelling through space for about 100 years. The first radio waves were sent at the end of 19th century by [Guglielmo Marconi](https://en.wikipedia.org/wiki/Guglielmo_Marconi), the first intentional radio signal was sent in 1906 by [Reginald Fessenden](https://en.wikipedia.org/wiki/Reginald_Fessenden), and the first commercial radio broadcast was in 1920 by [Westinghouse Electric and Manufacturing Company in Pittsburgh](https://www.fcc.gov/media/radio/history-of-commercial-radio). So let's say that the signals have been travelling for about 100 years. And since radio waves travel at the speed of light in the vacuum of space, we assume they have travelled about 100 light-years.
+
+We don't have a very good estimate of how many stars are there in the 100-light-year bubble around Earth, but we can use the [Stellar density](https://en.wikipedia.org/wiki/Stellar_density) in the [Local Interstellar Cloud](https://en.wikipedia.org/wiki/Local_Interstellar_Cloud) as a rough estimate. The Local Interstellar Cloud is roughly 30 light-years accross (9.2 parsecs) and overlaps with a region aroud the Sun called the [Local Bubble](https://en.wikipedia.org/wiki/Local_Bubble). It is estimated that the average stellar density around the Sun is 0.14 stars per cubic parsec. 1 parser is approximately 3.262 light-years. So the number of stars in the 100-light-year (or 30.7 parsec) bubble around Earth would be:
+
+$$
+\begin{align*}
+\text{Volume of the bubble} &= \frac{4}{3} \pi r^3 \\
+                            &= \frac{4}{3} \pi (30.7 \text{ parsecs})^3 \\
+                            &\approx 1.21 \times 10^5 \text{ cubic parsecs}
+\end{align*}
+$$
+
+The number of stars in the bubble would be:
+
+$$
+\begin{align*}
+\text{Number of stars} &= 0.14 \text{ stars/ pc}^{3} \times 1.21 \times 10^5 \text{ pc}^{3} \\
+                       &\approx 1.69 \times 10^4 \text{ stars}
+\end{align*}
+$$
+
+There is, however, an alternative estimate provided by Adam Kirk in his [blog post](https://lovethenightsky.com/stars-within-100-light-years/). Based on the [SkySafari 6](https://skysafariastronomy.com/) software data he writes that there are 59,722 stars within 100 light-years of Earth. We'll use both estimates in our further calculations to get a range of possible outcomes.
+
 
 # So what to do?
 # Criticism of Dark Forest theory
