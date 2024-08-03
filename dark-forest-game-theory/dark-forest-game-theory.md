@@ -29,13 +29,13 @@ Intro
 
 # Introduction 
 
-Hi There! I love to think about the universe and the mysteries it holds. One of the most intriguing questions is the Fermi Paradox, which asks why we haven't seen any evidence of extraterrestrial civilizations. In this article, I will share my attempts to apply game theory to one of the solutions of the Fermi Paradox, Dark Forest, which derives its name from [Liu Cixin's 2008 novel](https://www.goodreads.com/book/show/23168817-the-dark-forest). I will explain the theory, its assumptions, and how it relates to game theory. Let's dive in for a daily dose of existential dread and cosmic horror!
-<!-- 
-I will also show you how to simulate the Dark Forest game in Python. -->
+Hi There! I love to think about the universe and the mysteries it holds. One of the most intriguing questions for me is the Fermi Paradox, which asks why we haven't seen any evidence of extraterrestrial civilizations. In this article, I will share my attempts to apply game theory to one of the solutions of the Fermi Paradox, Dark Forest, which derives its name from [Liu Cixin's 2008 novel](https://www.goodreads.com/book/show/23168817-the-dark-forest). I will explain the theory, its assumptions, and how it relates to game theory. Let's dive in for a daily dose of existential dread and cosmic horror!
 
 # But where is everybody?
 
-There are over [100 billion stars](https://www.space.com/25959-how-many-stars-are-in-the-milky-way.html) in our galaxy, and over [2 trillion galaxies](https://www.skyatnightmagazine.com/space-science/how-many-galaxies-in-universe) in the observable universe. How come we haven't seen any evidence of life outside Earth? The famous [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) from 1950 asks this question. The apparent contradiction between the high probability of extraterrestrial civilizations' existence and the lack of evidence for, or contact with, such civilizations is the paradox. The [Drake equation](https://en.wikipedia.org/wiki/Drake_equation) is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation was formulated in 1961 by Frank Drake, not for purposes of quantifying the number of civilizations, but as a way to stimulate scientific dialogue at the first scientific meeting on the search for extraterrestrial intelligence (SETI). The Drake equation is:
+There are over [100 billion stars](https://www.space.com/25959-how-many-stars-are-in-the-milky-way.html) in our galaxy, and over [2 trillion galaxies](https://www.skyatnightmagazine.com/space-science/how-many-galaxies-in-universe) in the observable universe. How come we haven't seen any evidence of life outside Earth? The famous [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) from 1950 asks this question. The apparent contradiction between the high probability of extraterrestrial civilizations' existence and the lack of evidence for, or contact with, such civilizations is the paradox. The [Drake equation](https://en.wikipedia.org/wiki/Drake_equation) is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation was formulated in 1961 by Frank Drake, not for purposes of quantifying the number of civilizations, but as a way to stimulate scientific dialogue at the first scientific meeting on the search for extraterrestrial intelligence (SETI). 
+
+The Drake equation is:
 
 $$N = R^* \cdot f_p \cdot n_e \cdot f_l \cdot f_i \cdot f_c \cdot L$$
 
@@ -49,12 +49,16 @@ where:
 - $f_c$ is the fraction of civilizations that develop a technology that releases detectable signs of their existence into space,
 - $L$ is the length of time for which such civilizations release detectable signals into space.
 
-Naturally, the equation is highly speculative and depending on the values of the unknown (and unknowable) parameters, the result can be bend in any direction depending on the author's bias. 
+Naturally, the equation is highly speculative and depending on the values of the unknown (and unknowable) parameters, the result can be bent in any direction depending on the author's bias. For example, the [Wikipedia page](https://en.wikipedia.org/wiki/Drake_equation#Range_of_results) lists the ranges for over optimistic and over pessimistic estimates of the parameters resulting in the number of civilizations in the galaxy ranging from $0$ to $1.6 \times 10^7$. Not the most precise estimate, is it?
+
+<p align="center">
+<img src="images/precise_estimates.png" alt="drawing" style="width:400px;"/>
+</p>
 
 
 ## Different solutions
 
-There are many proposed solutions to the Fermi Paradox, some of the most popular are: [The Great Filter](https://en.wikipedia.org/wiki/Great_Filter), [Rare Earth](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis), [Zoo Hypothesis](https://en.wikipedia.org/wiki/Zoo_hypothesis), [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis), etc. Without going into details, the Great Filter suggests that there is some unknown step in the evolution of life that is extremely unlikely, and that is why we haven't seen any other civilizations. The Rare Earth hypothesis insists that Earth is a very special place, and that the conditions for life are very rare. The Zoo Hypothesis speculates that there are many civilizations out there, but they are intentionally avoiding communication with Earth to allow for natural evolution. The Simulation Hypothesis suggests that we are living in a simulation, and that is why we haven't seen any other civilizations. However, my favorite solution is the Dark Forest theory, named after the second book in [Liu Cixin's trilogy](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past).
+There are many proposed solutions to the Fermi Paradox, some of the most popular are: [The Great Filter](https://en.wikipedia.org/wiki/Great_Filter), [Rare Earth](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis), [Zoo Hypothesis](https://en.wikipedia.org/wiki/Zoo_hypothesis), [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis), etc. Without going into details, the Great Filter suggests that there is some unknown step in the evolution of life that is extremely unlikely, and that is why we haven't seen any other civilizations. The Rare Earth hypothesis insists that Earth is a very special place, and that the conditions for life are very rare. The Zoo Hypothesis speculates that there are many civilizations out there, but they are intentionally avoiding communication with Earth to allow for natural evolution. The Simulation Hypothesis suggests that we are living in a simulation, and that is why we haven't seen any other civilizations. However, my favorite solution is the Dark Forest theory, named after the second book in amazing Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past).
 
 # Dark Forest
 
@@ -245,17 +249,16 @@ In the eyes of external observer, who would dare to broadcast their location? --
 
 Humanity has been whispering into the void ever since the first radio waves started travelling through space. Most of the signals that leaked into the universe were not intentionally sent to communicate with extraterrestrial civilizations, but rather a byproduct of our technological progress. However, some attempts were symbolically intentional, like the [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) or the [Voyager Golden Record](https://en.wikipedia.org/wiki/Voyager_Golden_Record). 
 
-Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math and estimate what would be re required power 
+Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math and estimate what would be the required power 
+
+- estimate the current power of the signals and their dispersion
+- estimate the required sensitivity of the telescope
 
 But let's imagine that a wise and technologically advanced civilization would invest a lot of resourced into building the most sensitive equipment to detect even the faintest signals from the universe. After all, their survival depends on it. 
 
-- estimate the distance travelled by first radiowaves
-- estimate how many starts/planets/civilizations could be in the area
-- etc. 
-
 Since the introduction of radio waves, the signals have been travelling through space for about 100 years. The first radio waves were sent at the end of 19th century by [Guglielmo Marconi](https://en.wikipedia.org/wiki/Guglielmo_Marconi), the first intentional radio signal was sent in 1906 by [Reginald Fessenden](https://en.wikipedia.org/wiki/Reginald_Fessenden), and the first commercial radio broadcast was in 1920 by [Westinghouse Electric and Manufacturing Company in Pittsburgh](https://www.fcc.gov/media/radio/history-of-commercial-radio). So let's say that the signals have been travelling for about 100 years. And since radio waves travel at the speed of light in the vacuum of space, we assume they have travelled about 100 light-years.
 
-We don't have a very good estimate of how many stars are there in the 100-light-year bubble around Earth, but we can use the [Stellar density](https://en.wikipedia.org/wiki/Stellar_density) in the [Local Interstellar Cloud](https://en.wikipedia.org/wiki/Local_Interstellar_Cloud) as a rough estimate. The Local Interstellar Cloud is roughly 30 light-years accross (9.2 parsecs) and overlaps with a region aroud the Sun called the [Local Bubble](https://en.wikipedia.org/wiki/Local_Bubble). It is estimated that the average stellar density around the Sun is 0.14 stars per cubic parsec. 1 parser is approximately 3.262 light-years. So the number of stars in the 100-light-year (or 30.7 parsec) bubble around Earth would be:
+We don't have a very good estimate of how many stars are there in the 100-light-year bubble around Earth, but we can use the [Stellar density](https://en.wikipedia.org/wiki/Stellar_density) in the [Local Interstellar Cloud](https://en.wikipedia.org/wiki/Local_Interstellar_Cloud) to get a rough estimate. The Local Interstellar Cloud is roughly 30 light-years accross (9.2 parsecs) and overlaps with a region aroud the Sun called the [Local Bubble](https://en.wikipedia.org/wiki/Local_Bubble). It is estimated that the average stellar density around the Sun is 0.14 stars per cubic parsec. 1 parsec is approximately 3.262 light-years. So the number of stars in the 100-light-year (or 30.7 parsec) bubble around Earth would be:
 
 $$
 \begin{align*}
@@ -265,8 +268,6 @@ $$
 \end{align*}
 $$
 
-The number of stars in the bubble would be:
-
 $$
 \begin{align*}
 \text{Number of stars} &= 0.14 \text{ stars/ pc}^{3} \times 1.21 \times 10^5 \text{ pc}^{3} \\
@@ -274,7 +275,67 @@ $$
 \end{align*}
 $$
 
-There is, however, an alternative estimate provided by Adam Kirk in his [blog post](https://lovethenightsky.com/stars-within-100-light-years/). Based on the [SkySafari 6](https://skysafariastronomy.com/) software data he writes that there are 59,722 stars within 100 light-years of Earth. We'll use both estimates in our further calculations to get a range of possible outcomes.
+There is, however, an alternative estimate provided by Adam Kirk in his [blog post](https://lovethenightsky.com/stars-within-100-light-years/). Based on the [SkySafari 6](https://skysafariastronomy.com/) software data he writes that there are **59,722** stars within 100 light-years of Earth. We'll use both estimates in our further calculations to get a range of possible outcomes.
+
+Of those stars, [around 20% would be Sun-like](https://www.forbes.com/sites/startswithabang/2019/10/01/astronomers-debate-how-many-habitable-planets-does-each-sun-like-star-have/#:~:text=We%20know%20that%20there%20are,like%20stars%20in%20our%20galaxy.). And out of those, [about 22% would have planets in the habitable zone](https://news.berkeley.edu/2013/11/04/astronomers-answer-key-question-how-common-are-habitable-planets/). So the number of potentially habitable planets in the 100-light-year bubble around Earth would be:
+
+
+$$
+\begin{align*}
+\text{Number of Sun-like stars} &=  \left\{
+\begin{aligned}
+0.2 &\times 1.69 \times 10^4 \text{ (low estimate)} \\
+0.2 &\times 5.97 \times 10^4 \text{ (high estimate)}
+\end{aligned}
+\right. \\
+&\approx\left\{
+\begin{aligned}
+3.38 &\times 10^3 \\
+1.19 &\times 10^4
+\end{aligned}
+\right.
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\text{Number of habitable planets} &=  \left\{
+\begin{aligned}
+0.22 &\times 3.38 \times 10^3 \text{ (low estimate)} \\
+0.22 &\times 1.19 \times 10^4 \text{ (high estimate)}
+\end{aligned}
+\right. \\
+&\approx\left\{
+\begin{aligned}
+0.74 \times 10^3 \\
+2.62 \times 10^3
+\end{aligned}
+\right.
+\end{align*}
+$$
+
+The final step is to estimate how many of those planets could have developed intelligent life and potentially be listening to our signals. This is the most speculative number we've had so far, so in an attempt to be as conservative as possible, we'll use the existing estimates for Drake equation. As you remember, in the equation, $f_l$ is the fraction of planets that could support life that actually develop life at some point and $f_i$ is the fraction of planets with life that develop intelligent life. The estimates for $f_l$ and $f_i$ are very uncertain, so we'll use both the lower and upper estimates from the [Wikipedia page](https://en.wikipedia.org/wiki/Drake_equation). The lower estimate for $f_l$ is $10^{-5}$ and the upper estimate is $0.13$, and the lower estimate for $f_i$ is $10^{-9}$ and the upper estimate is $1$.
+
+$$
+\begin{align*}
+\text{Number of civilizations} &= \text{Number of planets}  \cdot f_l \cdot f_i \\
+&= \left\{
+\begin{aligned}
+0.74 &\times 10^3 \times 10^{-5} \times 10^{-9} \text{ (low estimate)}\\
+2.62 &\times 10^3 \times 0.13 \times 1 \text{ (high estimate)}
+\end{aligned}
+\right. \\
+&\approx\left\{
+\begin{aligned}
+7.4 &\times 10^{-12} \\
+3.4 &\times 10^2
+\end{aligned}
+\right.
+\end{align*}
+$$
+
+So the worst (best?) case scenario is that there are around 340 civilizations in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
+
 
 
 # So what to do?
