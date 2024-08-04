@@ -249,14 +249,85 @@ In the eyes of external observer, who would dare to broadcast their location? --
 
 Humanity has been whispering into the void ever since the first radio waves started travelling through space. Most of the signals that leaked into the universe were not intentionally sent to communicate with extraterrestrial civilizations, but rather a byproduct of our technological progress. However, some attempts were symbolically intentional, like the [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) or the [Voyager Golden Record](https://en.wikipedia.org/wiki/Voyager_Golden_Record). 
 
-Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math and estimate what would be the required power 
+Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math and estimate what would be the required power of a signal to be detectable from a certain distance.
 
-- estimate the current power of the signals and their dispersion
-- estimate the required sensitivity of the telescope
+Since the introduction of radio waves, the signals have been travelling through space for about 100 years. The first radio waves were sent at the end of 19th century by [Guglielmo Marconi](https://en.wikipedia.org/wiki/Guglielmo_Marconi), the first intentional radio signal was sent in 1906 by [Reginald Fessenden](https://en.wikipedia.org/wiki/Reginald_Fessenden), and the first commercial radio broadcast was in 1920 by [Westinghouse Electric and Manufacturing Company in Pittsburgh](https://www.fcc.gov/media/radio/history-of-commercial-radio). 
+
+Most of these signals drowned in Earth's atmosphere or were obscured by radio emissions from the Sun. However, with the introduction of [military radars](https://www.sciencefocus.com/space/how-far-from-earth-could-aliens-detect-our-radio-signals), the power and frequency charachteristics of the signals allowed them to overcome this interference. So let's say that the signals have been travelling for about 100 years. And since radio waves travel at the speed of light in the vacuum of space, we assume they have travelled about 100 light-years.
+
+Radio waves spread out as they travel, and their intensity diminishes following the inverse square law. This means that the power density $P$ of a signal at a distance $d$ from the source is inversely proportional to the square of the distance:
+
+$$P \propto\frac{1}{d^2}$$
+
+In telecommunication, [Free-space path loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) is used to measure the attenuation of radio waves as they travel between antennas. The formula for FSPL is:
+
+$$FSPL = \left( \frac{4\pi d f}{c} \right)^2$$
+
+where:
+
+- $d$ is the distance between the antennas,
+- $f$ is the frequency of the signal,
+- $c$ is the speed of light.
+
+To make calculations easier, we can [express FSPL is in terms of decibels](https://en.wikipedia.org/wiki/Free-space_path_loss#:~:text=2-,Free%2Dspace%20path%20loss%20in%20decibels,-%5Bedit%5D):
+
+$$FSPL_{dB} = 20 \log_{10}(d) + 20 \log_{10}(f) - 147.5$$
+
+For a frequency of 1 GHz, the FSPL at a distance of 100 light-years (9.46⋅10<sup>17</sup> meters) would be:
+
+$$
+\begin{align*}
+FSPL_{dB} &= 20 \log_{10}(9.46 \times 10^{17}) + 20 \log_{10}(10^9) - 147.5 \\
+&\approx 359.5 + 180 - 147.5 \\
+&\approx 392 \text{ dB}
+\end{align*}
+$$
+
+Required transmission power $P_{0}$, considering gains and losses (including FSPL), can be estimated through the [link budget equation](https://en.wikipedia.org/wiki/Link_budget):
+
+$$
+P_{r} = P_{t} + G_{t} + G_{r} - FSPL_{dB}
+$$
+
+where:
+- $P_{r}$ is the detectable power level at the receiver, considering modern radio telescopes can detect signals as weak as $-160$ dBm (Arecibo Observatory),
+- $P_{t}$ is the transmission power,
+- $G_{t}$ is the gain of the transmitting antenna,
+- $G_{r}$ is the gain of the receiving antenna
+
+Rearranging for $P_{t}$, we get:
+
+$$
+P_{t} = P_{r} - G_{t} - G_{r} + FSPL_{dB}
+$$
+
+We will assume that $G_r$ is 0 dBi. Naturally, higher-gain antennas would be able to increase the strength of the signal both at the source and at the receiver, but they would have to be pointed directly at each other. Since aliens (presumably) do not yet know our location, their only hope of detecting our signals would be by scanning the whole sky. For $G_t$, we can take a standard gain of a radio antenna which could reach around 20 dBi. Then the required transmission power would be:
+
+$$
+P_{t} = -160 - 20 - 0 + 392 = 212 \text{ dBm}
+$$
+
+Converting this to watts:
+
+$$
+P_{t} = 10^{212/10} = 1.58 \times 10^{18} \text{ W} =  1.58 \times 10^6\text{ TW}
+$$
+
+To give you a sense of scale, the annual global power consumption of the Earth from all energy sources is around [17.7 TW](https://www.theworldcounts.com/stories/current-world-energy-consumption). So the required power to send a signal that could be detected from 100 light-years away would be about 90,000 times the total energy consumption of the Earth. That's why Ye Wenjie used the Sun as a massive amplifier to reach out to the Trisolarans.
+
+With the existing power of advanced modern radio transmitters, which is around 1-3 MW (1 MW = 90 dBm), the resulting signal would be indistinguishable from the cosmic radiation background noise at a distance of 100 light-years:
+
+$$
+\begin{align*}
+P_{r} &= P_{t} + G_t + G_r - FSPL_{dB} \\
+&= 90 + 20 + 0 - 392 \\
+&= -282 \text{ dBm}
+\end{align*}
+$$
+
+ So the chances of any civilization detecting our signals are slim to none.
 
 But let's imagine that a wise and technologically advanced civilization would invest a lot of resourced into building the most sensitive equipment to detect even the faintest signals from the universe. After all, their survival depends on it. 
-
-Since the introduction of radio waves, the signals have been travelling through space for about 100 years. The first radio waves were sent at the end of 19th century by [Guglielmo Marconi](https://en.wikipedia.org/wiki/Guglielmo_Marconi), the first intentional radio signal was sent in 1906 by [Reginald Fessenden](https://en.wikipedia.org/wiki/Reginald_Fessenden), and the first commercial radio broadcast was in 1920 by [Westinghouse Electric and Manufacturing Company in Pittsburgh](https://www.fcc.gov/media/radio/history-of-commercial-radio). So let's say that the signals have been travelling for about 100 years. And since radio waves travel at the speed of light in the vacuum of space, we assume they have travelled about 100 light-years.
 
 We don't have a very good estimate of how many stars are there in the 100-light-year bubble around Earth, but we can use the [Stellar density](https://en.wikipedia.org/wiki/Stellar_density) in the [Local Interstellar Cloud](https://en.wikipedia.org/wiki/Local_Interstellar_Cloud) to get a rough estimate. The Local Interstellar Cloud is roughly 30 light-years accross (9.2 parsecs) and overlaps with a region aroud the Sun called the [Local Bubble](https://en.wikipedia.org/wiki/Local_Bubble). It is estimated that the average stellar density around the Sun is 0.14 stars per cubic parsec. 1 parsec is approximately 3.262 light-years. So the number of stars in the 100-light-year (or 30.7 parsec) bubble around Earth would be:
 
