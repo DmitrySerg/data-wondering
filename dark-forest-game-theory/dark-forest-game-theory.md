@@ -277,11 +277,7 @@ $$FSPL_{dB} = 20 \log_{10}(d) + 20 \log_{10}(f) - 147.5$$
 For a frequency of 1 GHz, the FSPL at a distance of 100 light-years (9.46⋅10<sup>17</sup> meters) would be:
 
 $$
-\begin{align*}
-FSPL_{dB} &= 20 \log_{10}(9.46 \times 10^{17}) + 20 \log_{10}(10^9) - 147.5 \\
-&\approx 359.5 + 180 - 147.5 \\
-&\approx 392 \text{ dB}
-\end{align*}
+FSPL_{dB} = 20 \log_{10}(9.46 \times 10^{17}) + 20 \log_{10}(10^9) - 147.5 \approx 392 \text{ dB}
 $$
 
 Required transmission power $P_{0}$, considering gains and losses (including FSPL), can be estimated through the [link budget equation](https://en.wikipedia.org/wiki/Link_budget):
@@ -305,14 +301,9 @@ $$
 We will assume that $G_r$ is 0 dBi. Naturally, higher-gain antennas would be able to increase the strength of the signal both at the source and at the receiver, but they would have to be pointed directly at each other. Since aliens (presumably) do not yet know our location, their only hope of detecting our signals would be by scanning the whole sky. For $G_t$, we can take a standard gain of a radio antenna which could reach around 20 dBi. Then the required transmission power would be:
 
 $$
-P_{t} = -160 - 20 - 0 + 392 = 212 \text{ dBm}
+P_{t} = -160 - 20 - 0 + 392 = 212 \text{ dBm} = 1.58 \times 10^6 \text{ TW}
 $$
 
-Converting this to watts:
-
-$$
-P_{t} = 10^{212/10} = 1.58 \times 10^{18} \text{ W} =  1.58 \times 10^6\text{ TW}
-$$
 
 To give you a sense of scale, the annual global power consumption of the Earth from all energy sources is around [17.7 TW](https://www.theworldcounts.com/stories/current-world-energy-consumption). So the required power to send a signal that could be detected from 100 light-years away would be about 90,000 times the total energy consumption of the Earth. That's why Ye Wenjie used the Sun as a massive amplifier to reach out to the Trisolarans.
 
