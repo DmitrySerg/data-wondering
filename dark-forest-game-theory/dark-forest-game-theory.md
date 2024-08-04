@@ -64,6 +64,8 @@ There are many proposed solutions to the Fermi Paradox, some of the most popular
 
 (important assumption -- both civilizations have the ability to destroy each other)
 
+> The universe is a dark forest. Every civilization is an armed hunter stalking through the trees like a ghost, gently pushing aside branches that block the path and trying to tread without sound. Even breathing is done with care. The hunter has to be careful, because everywhere in the forest are stealthy hunters like him. If he finds other life—another hunter, an angel or a demon, a delicate infant or a tottering old man, a fairy or a demigod—there’s only one thing he can do: open fire and eliminate them. In this forest, hell is other people. An eternal threat that any life that exposes its own existence will be swiftly wiped out. This is the picture of cosmic civilization. It’s the explanation for the Fermi Paradox.
+
 # Space prisoners  
 
 ![Image by author](images/c1_c2_prisoners_game.png)
@@ -85,6 +87,9 @@ The right branch of the tree represents the case where $C_1$ decides to stay sil
 Now let's try to find Nash equilibria for this game. We'll do this analytically, and then we'll simulate the game in Python. 
 
 ## Analytical solution
+
+> “Successful cooperation does not equate to successful understanding.”
+> ― Liu Cixin, The Dark Forest
 
 Let's start untangling the game tree by taking a closer look at the left branch where **broadcast from $C_1$ has already happened**. We will start from the bottom and work our way up.
 
@@ -126,6 +131,9 @@ Continuing the elimination process we can now see that regardless of the choice 
 So should we all just be friends and send greetings left and right? Well, not so fast.
 
 ## Weak and Strong civilizations 
+
+> “do you know what the greatest expression of regard for a race or civilization is?” “No, what?” “Annihilation. That’s the highest respect a civilization can receive. They would only feel threatened by a civilization they truly respect.”
+> ― Liu Cixin, The Dark Forest
 
 <p align="center">
 <img src="images/neat_part.png" alt="drawing" style="width:300px;"/>
@@ -203,7 +211,7 @@ So far we have been considering a game between two civilizations. But in the obs
 
 Let's introduce a few variables:
 
-- let $p$ be the probaility that that a civilization $C_n$ receiving the message is equal to or weaker than $C_1$
+- Let $p$ be the probaility that that a civilization $C_n$ receiving the message is equal to or weaker than $C_1$
 - $(1-p)$ would be the probability that $C_n$ is stronger
 - $N$ is the total number of civilizations that got the message from $C_1$
 ​
@@ -317,7 +325,7 @@ P_{r} &= P_{t} + G_t + G_r - FSPL_{dB} \\
 \end{align*}
 $$
 
- So the chances of any civilization detecting our signals are slim to none.
+So the chances of any civilization detecting our signals are slim to none.
 
 But let's imagine that a wise and technologically advanced civilization would invest a lot of resourced into building the most sensitive equipment to detect even the faintest signals from the universe. After all, their survival depends on it. 
 
@@ -386,7 +394,15 @@ $$
 
 So the worst (best?) case scenario is that there are around 340 civilizations in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
 
+<p align="center">
+<img src="images/surrounded_earth.png" alt="we are surrounded" style="width:300px;"/>
+</p>
 
 
 # So what to do?
+
+> “Staying alive is not enough to guarantee survival. Development is the best way to ensure survival.”
+> ― Liu Cixin, The Dark Forest
+
+
 # Criticism of Dark Forest theory
