@@ -1,4 +1,4 @@
-# Where be the aliens? Game theory, Dark Forest, and Python
+# Where be the aliens? Game theory, Dark Forest, and 
 
 Contents:
 Intro 
@@ -342,38 +342,29 @@ There is, however, an alternative estimate provided by Adam Kirk in his [blog po
 
 Of those stars, [around 20% would be Sun-like](https://www.forbes.com/sites/startswithabang/2019/10/01/astronomers-debate-how-many-habitable-planets-does-each-sun-like-star-have/#:~:text=We%20know%20that%20there%20are,like%20stars%20in%20our%20galaxy.). And out of those, [about 22% would have planets in the habitable zone](https://news.berkeley.edu/2013/11/04/astronomers-answer-key-question-how-common-are-habitable-planets/). So the number of potentially habitable planets in the 100-light-year bubble around Earth would be:
 
-
 $$
 \begin{align*}
-\text{Number of Sun-like stars} &=  \left\{
-\begin{aligned}
-0.2 &\times 1.69 \times 10^4 \text{ (low estimate)} \\
-0.2 &\times 5.97 \times 10^4 \text{ (high estimate)}
-\end{aligned}
-\right. \\
-&\approx\left\{
-\begin{aligned}
-3.38 &\times 10^3 \\
-1.19 &\times 10^4
-\end{aligned}
-\right.
+\text{Number of Sun-like stars} &= \begin{cases}
+0.2 \times 1.69 \times 10^4 & \text{(low estimate)} \\
+0.2 \times 5.97 \times 10^4 & \text{(high estimate)}
+\end{cases} \\
+&\approx \begin{cases}
+3.38 \times 10^3 \\
+1.19 \times 10^4
+\end{cases}
 \end{align*}
 $$
 
 $$
 \begin{align*}
-\text{Number of habitable planets} &=  \left\{
-\begin{aligned}
-0.22 &\times 3.38 \times 10^3 \text{ (low estimate)} \\
-0.22 &\times 1.19 \times 10^4 \text{ (high estimate)}
-\end{aligned}
-\right. \\
-&\approx\left\{
-\begin{aligned}
+\text{Number of habitable planets} &= \begin{cases}
+0.22 \times 3.38 \times 10^3 & \text{(low estimate)} \\
+0.22 \times 1.19 \times 10^4 & \text{(high estimate)}
+\end{cases} \\
+&\approx \begin{cases}
 0.74 \times 10^3 \\
 2.62 \times 10^3
-\end{aligned}
-\right.
+\end{cases}
 \end{align*}
 $$
 
