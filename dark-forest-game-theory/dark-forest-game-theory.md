@@ -390,19 +390,15 @@ The final step is to estimate how many of those planets could have developed int
 
 $$
 \begin{align*}
-\text{Number of civilizations} &= \text{Number of planets}  \cdot f_l \cdot f_i \\
-&= \left\{
-\begin{aligned}
-0.74 &\times 10^3 \times 10^{-5} \times 10^{-9} \text{ (low estimate)}\\
-2.62 &\times 10^3 \times 0.13 \times 1 \text{ (high estimate)}
-\end{aligned}
-\right. \\
-&\approx\left\{
-\begin{aligned}
-7.4 &\times 10^{-12} \\
-3.4 &\times 10^2
-\end{aligned}
-\right.
+\text{Number of civilizations} &= \text{Number of planets} \cdot f_l \cdot f_i \\
+&= \begin{cases}
+0.74 \times 10^3 \times 10^{-5} \times 10^{-9} & \text{(low estimate)} \\
+2.62 \times 10^3 \times 0.13 \times 1 & \text{(high estimate)}
+\end{cases} \\
+&\approx \begin{cases}
+7.4 \times 10^{-12} \\
+3.4 \times 10^2
+\end{cases}
 \end{align*}
 $$
 
