@@ -215,6 +215,7 @@ To make the analysis simpler, let's say that encountering a weaker or equally st
 On the other hand, getting exposed to a stronger civilization ends up in either desctruction or occupation, and the fact that out there might be $(1-p)N$ of strong ones does not make things easier for feeble $C_1$. The negative payoff could be another probability-weighted function, depending on the choice of the stronger civilization. For simplicity, let's say that it's always $-D_1$, so the total payoff for $C_1$ in this case would be $(1-p)N \cdot (-D_1)$.
 
 Combining the two terms together, we get the total payoff for $C_1$ after sending out a signal:
+
 $$
 \begin{align*}
 \text{Total Payoff} &=  pN \cdot P_1(f_1, F_1) + (1-p)N \cdot (-D_1) \\
