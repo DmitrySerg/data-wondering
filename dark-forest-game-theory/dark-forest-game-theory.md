@@ -1,39 +1,19 @@
-# Where be the aliens? Game theory, Dark Forest, and 
+# Where be the Aliens? Game Theory, Dark Forest, and Earth's Survival
 
-Contents:
-Intro 
-
-1. But where is everybody?
-   1. Fermi Paradox and Drake equation
-   2. Different solutions
-      1. The Great Filter, Rare Earth, Zoo Hypothesis, Simulation Hypothesis, etc.
-2. Dark Forest 
-   1. Liu Cixin's trilogy
-   2. The Dark Forest theory 
-   3. Assumptions
-      1. Comunication, Elimitation, Speed
-3. Space prisoners  
-   1. Prisoner's Dilemma
-   2. The Dark Forest game
-      1. Nash equilibrium
-      2. Fragile deterrence
-   3. Iterated version, is it possible?
-4. Extending to N civilizations
-   2. Earth's chances
-      1. How loud have we been?
-      2. How far can we hear?
-5. So what to do? 
-   1. Stay quiet
-   2. Expand 
-6. Criticism of Dark Forest theory
 
 # Introduction 
 
-Hi There! I love to think about the universe and the mysteries it holds. One of the most intriguing questions for me is the Fermi Paradox, which asks why we haven't seen any evidence of extraterrestrial civilizations. In this article, I will share my attempts to apply game theory to one of the solutions of the Fermi Paradox, Dark Forest, which derives its name from [Liu Cixin's 2008 novel](https://www.goodreads.com/book/show/23168817-the-dark-forest). I will explain the theory, its assumptions, and how it relates to game theory. Let's dive in for a daily dose of existential dread and cosmic horror!
+Hello there! I have always greatly enjoyed (over-)thinking about the universe and its mysteries. Imagining other worlds, overindulging myself in sci-fi books and movies, replaying the Mass Effect trilogy over and over again — all the usual stuff for a person who loved astronomy and physics just a little bit too much as a kid. And yet it was only a year ago that I learned about the existence of Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). After having devoured all three books without even noticing the [time passing](https://www.youtube.com/watch?v=yS0yBgZrVas), I was left with my favourite post-great-read feeling. One of existential dread and cosmic horror.
 
-# But where is everybody?
+Besides the pleasant shivers down my spine, I also got a fascinating idea to play with. So in this article, I want to share my thoughts on one of the most intriguing ideas explored in the trilogy: the Dark Forest theory. 
 
-There are over [100 billion stars](https://www.space.com/25959-how-many-stars-are-in-the-milky-way.html) in our galaxy, and over [2 trillion galaxies](https://www.skyatnightmagazine.com/space-science/how-many-galaxies-in-universe) in the observable universe. How come we haven't seen any evidence of life outside Earth? The famous [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) from 1950 asks this question. The apparent contradiction between the high probability of extraterrestrial civilizations' existence and the lack of evidence for, or contact with, such civilizations is the paradox. The [Drake equation](https://en.wikipedia.org/wiki/Drake_equation) is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation was formulated in 1961 by Frank Drake, not for purposes of quantifying the number of civilizations, but as a way to stimulate scientific dialogue at the first scientific meeting on the search for extraterrestrial intelligence (SETI). 
+Dive in for your daily dose of man-made horrors beyond comprehension! 
+
+# Where is everybody?
+
+There are over [100 billion stars](https://www.space.com/25959-how-many-stars-are-in-the-milky-way.html) in our galaxy, and over [2 trillion galaxies](https://www.skyatnightmagazine.com/space-science/how-many-galaxies-in-universe) in the observable universe. How come we haven't seen any evidence of life outside Earth? Are we the first? Or the last? The only ones? 
+
+The famous [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) from 1950 asks this question. The apparent contradiction between the high probability of extraterrestrial civilizations' existence and the lack of evidence for, or contact with, such civilizations is the paradox. The [Drake equation](https://en.wikipedia.org/wiki/Drake_equation) is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation was formulated in 1961 by Frank Drake, not for purposes of quantifying the number of civilizations, but as a way to stimulate scientific dialogue at the first scientific meeting on the search for extraterrestrial intelligence (SETI). 
 
 The Drake equation is:
 
@@ -58,13 +38,26 @@ Naturally, the equation is highly speculative and depending on the values of the
 
 ## Different solutions
 
-There are many proposed solutions to the Fermi Paradox, some of the most popular are: [The Great Filter](https://en.wikipedia.org/wiki/Great_Filter), [Rare Earth](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis), [Zoo Hypothesis](https://en.wikipedia.org/wiki/Zoo_hypothesis), [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis), etc. Without going into details, the Great Filter suggests that there is some unknown step in the evolution of life that is extremely unlikely, and that is why we haven't seen any other civilizations. The Rare Earth hypothesis insists that Earth is a very special place, and that the conditions for life are very rare. The Zoo Hypothesis speculates that there are many civilizations out there, but they are intentionally avoiding communication with Earth to allow for natural evolution. The Simulation Hypothesis suggests that we are living in a simulation, and that is why we haven't seen any other civilizations. However, my favorite solution is the Dark Forest theory, named after the second book in amazing Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past).
+There are many proposed solutions to the Fermi Paradox. As it frequently happens with ideas, (as well as ideologies and philosophies), they evolve with time. The more humanity learns about itself the more we shape our perception of the universe. Starting with antropo- and geocentrism, we have now moved from the very center of the universe to a tiny insignificant speck of dust in the infinite cosmos. 
 
-# Dark Forest
+The same goes for the Fermi paradox solutions. With different technologies and ideas evolving over the decades, the proposed solutions have been reflecting the most up-to-date knowledge and beliefs. For example, as we deepened our understanding of the unfathomably complex mechanisms behind the emergence of life, the [Rare Earth](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis) hypothesis gained popularity. 
+
+Or as humanity started to explore the possibilities of artificial intelligence and virtual reality, the [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis) became quite appealing (especially in sci-fi movies). 
+
+Some ideas are somewhat more optimistic, like the [Zoo Hypothesis](https://en.wikipedia.org/wiki/Zoo_hypothesis). And although it implies that humanity is nothing but a cosmic zoo exhibit, too primitive to be considered equal, at least it suggests that there are other civilizations out there and they are benevolent. 
+
+Others are more pessimistic. The [Great Filter](https://en.wikipedia.org/wiki/Great_Filter) is a direct reflection of humanity's fears of self-destruction as well as our understanding of how fragile and improbable life is. What if every civilization is doomed to fail and destroy itself before it reaches the stars? 
+
+And yet my favourite proposed solution is the one that I put in the title of this piece. **The Dark Forest theory**.
+
+# The Dark Forest
+
+The Dark Forest theory gets its name from the second book in the amazing Lou Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). 
 
 (important assumption -- both civilizations have the ability to destroy each other)
 
 > The universe is a dark forest. Every civilization is an armed hunter stalking through the trees like a ghost, gently pushing aside branches that block the path and trying to tread without sound. Even breathing is done with care. The hunter has to be careful, because everywhere in the forest are stealthy hunters like him. If he finds other life—another hunter, an angel or a demon, a delicate infant or a tottering old man, a fairy or a demigod—there’s only one thing he can do: open fire and eliminate them. In this forest, hell is other people. An eternal threat that any life that exposes its own existence will be swiftly wiped out. This is the picture of cosmic civilization. It’s the explanation for the Fermi Paradox.
+> ― Liu Cixin, The Dark Forest
 
 # Space prisoners  
 
@@ -256,6 +249,9 @@ In the eyes of external observer, who would dare to broadcast their location? --
 
 # How screwed are we? 
 
+> "There is a fear of the night that is begotten of ignorance and superstition, a nightmare fear, the fear of the impossible; and there is another fear of the night―of the starlit night―that comes with knowledge, when we see in its true proportion this little life of ours..." 
+> ― H.G. Wells, From An Observatory
+
 Humanity has been whispering into the void ever since the first radio waves started travelling through space. Most of the signals that leaked into the universe were not intentionally sent to communicate with extraterrestrial civilizations, but rather a byproduct of our technological progress. However, some attempts were symbolically intentional, like the [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) or the [Voyager Golden Record](https://en.wikipedia.org/wiki/Voyager_Golden_Record). 
 
 Naturally, the radio waves have been exceptionally weak and chances of them being detected by an alien civilization are slim. We can do some napkin math and estimate what would be the required power of a signal to be detectable from a certain distance.
@@ -392,7 +388,7 @@ $$
 \end{align*}
 $$
 
-So the worst (best?) case scenario is that there are around 340 civilizations in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
+So the worst (best?) case scenario is that there are around **340 civilizations** in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
 
 <p align="center">
 <img src="images/surrounded_earth.png" alt="we are surrounded" style="width:300px;"/>
@@ -403,6 +399,10 @@ So the worst (best?) case scenario is that there are around 340 civilizations in
 
 > “Staying alive is not enough to guarantee survival. Development is the best way to ensure survival.”
 > ― Liu Cixin, The Dark Forest
+
+> "Since, in the long run, every planetary society will be endangered by impacts from space, every surviving civilization is obliged to become spacefaring — not because of exploratory or romantic zeal, but for the most practical reason imaginable: staying alive."
+> ― Carl Sagan, Pale Blue Dot
+
 
 
 # Criticism of Dark Forest theory
