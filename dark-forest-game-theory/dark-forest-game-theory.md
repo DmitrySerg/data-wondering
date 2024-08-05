@@ -7,13 +7,13 @@ Hello there! I have always greatly enjoyed (over-)thinking about the universe an
 
 Besides the pleasant shivers down my spine, I also got a fascinating idea to play with. So in this article, I want to share my thoughts on one of the most intriguing ideas explored in the trilogy: the Dark Forest theory. 
 
-Dive in for your daily dose of man-made horrors beyond comprehension and remember: YOU ARE BUGS!
+Dive in for your daily dose of man-made horrors beyond comprehension and remember: [YOU ARE BUGS](https://www.youtube.com/watch?v=tEBIbJrUYZk)!
 
 <p align="center">
 <img src="images/you_are_bugs.png" alt="YOU ARE BUGS" style="width:400px;"/>
 </p>
 
-# Where is everybody?
+# Where is Everybody?
 
 There are over [100 billion stars](https://www.space.com/25959-how-many-stars-are-in-the-milky-way.html) in our galaxy, and over [2 trillion galaxies](https://www.skyatnightmagazine.com/space-science/how-many-galaxies-in-universe) in the observable universe. How come we haven't seen any evidence of life outside Earth? Are we the first? Or the last? The only ones? 
 
@@ -40,7 +40,7 @@ Naturally, the equation is highly speculative and depending on the values of the
 </p>
 
 
-## Different solutions
+## Different Solutions
 
 There are many proposed solutions to the Fermi Paradox. As it frequently happens with ideas, (as well as ideologies and philosophies), they evolve with time. The more humanity learns about itself the more we shape our perception of the universe. Starting with antropo- and geocentrism, we have now moved from the very center of the universe to a tiny insignificant speck of dust in the infinite cosmos. 
 
@@ -56,14 +56,18 @@ And yet my favourite proposed solution is the one that I put in the title of thi
 
 # The Dark Forest
 
-The Dark Forest theory gets its name from the second book in the amazing Lou Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). 
-
-(important assumption -- both civilizations have the ability to destroy each other)
+The Dark Forest theory gets its name from the second book in the amazing Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). I believe, it's best to introduce the theory in the words of the author himself:
 
 > The universe is a dark forest. Every civilization is an armed hunter stalking through the trees like a ghost, gently pushing aside branches that block the path and trying to tread without sound. Even breathing is done with care. The hunter has to be careful, because everywhere in the forest are stealthy hunters like him. If he finds other life—another hunter, an angel or a demon, a delicate infant or a tottering old man, a fairy or a demigod—there’s only one thing he can do: open fire and eliminate them. In this forest, hell is other people. An eternal threat that any life that exposes its own existence will be swiftly wiped out. This is the picture of cosmic civilization. It’s the explanation for the Fermi Paradox.
 > ― Liu Cixin, The Dark Forest
 
-# Space prisoners  
+(important assumption -- both civilizations have the ability to destroy each other)
+
+<p align="center">
+<img src="images/the_dark_forest.png" alt="drawing" style="width:400px;"/>
+</p>
+
+# Space Prisoners  
 
 ![Image by author](images/c1_c2_prisoners_game.png)
 
@@ -83,7 +87,7 @@ The right branch of the tree represents the case where $C_1$ decides to stay sil
 
 Now let's try to find Nash equilibria for this game. We'll do this analytically, and then we'll simulate the game in Python. 
 
-## Analytical solution
+## Analytical Solution
 
 > “Successful cooperation does not equate to successful understanding.”
 > ― Liu Cixin, The Dark Forest
@@ -127,7 +131,7 @@ Continuing the elimination process we can now see that regardless of the choice 
 
 So should we all just be friends and send greetings left and right? Well, not so fast.
 
-## Weak and Strong civilizations 
+## Weak and Strong Civilizations 
 
 > “do you know what the greatest expression of regard for a race or civilization is?” “No, what?” “Annihilation. That’s the highest respect a civilization can receive. They would only feel threatened by a civilization they truly respect.”
 > ― Liu Cixin, The Dark Forest
@@ -170,7 +174,7 @@ So the Nash equilibrium of this game is occupation of $C_1$ by $C_2$:
 From this result alone it's already clear that for a weak civilization, it's better to not initiate contact with a strong one at all. And how could we as a civilization know if a weak or strong counterpart is listening on the other end? Well, that's the neat part. We don't. 
 
 
-## Incomplete information and why beliefs matter
+## Incomplete Information and Why Beliefs Matter
 
 The result above, devastating for $C_1$, is only true if $C_2$ knows or, rather, *believes*, that $C_1$ is weak. How would the game unfold if despite $C_1$ being weak, $C_2$ would not be sure about it? 
 
@@ -395,7 +399,7 @@ $$
 So the worst (best?) case scenario is that there are around **340 civilizations** in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
 
 <p align="center">
-<img src="images/surrounded_earth.png" alt="we are surrounded" style="width:300px;"/>
+<img src="images/surrounded_earth.png" alt="we are surrounded" style="width:400px;"/>
 </p>
 
 
