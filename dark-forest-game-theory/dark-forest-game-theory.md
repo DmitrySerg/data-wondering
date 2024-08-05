@@ -7,7 +7,11 @@ Hello there! I have always greatly enjoyed (over-)thinking about the universe an
 
 Besides the pleasant shivers down my spine, I also got a fascinating idea to play with. So in this article, I want to share my thoughts on one of the most intriguing ideas explored in the trilogy: the Dark Forest theory. 
 
-Dive in for your daily dose of man-made horrors beyond comprehension! 
+Dive in for your daily dose of man-made horrors beyond comprehension and remember: YOU ARE BUGS!
+
+<p align="center">
+<img src="images/you_are_bugs.png" alt="YOU ARE BUGS" style="width:400px;"/>
+</p>
 
 # Where is everybody?
 
