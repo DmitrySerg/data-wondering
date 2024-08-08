@@ -7,13 +7,13 @@ Hello there! I have always greatly enjoyed (over-)thinking about the universe an
 
 Besides the pleasant shivers down my spine, I also got a fascinating idea to play with. So in this article, I want to share my thoughts on one of the most intriguing ideas explored in the trilogy: the Dark Forest theory. 
 
-Dive in for your daily dose of man-made horrors beyond comprehension and remember: [YOU ARE BUGS](https://www.youtube.com/watch?v=tEBIbJrUYZk)!
+If you don't mind mild spoilers for the book series, dive in for your daily dose of man-made horrors beyond comprehension. And remember: [YOU ARE BUGS](https://www.youtube.com/watch?v=tEBIbJrUYZk)!
 
 <p align="center">
 <img src="images/you_are_bugs.png" alt="YOU ARE BUGS" style="width:400px;"/>
 </p>
 
-# Where is Everybody?
+# But Where is Everybody?
 
 There are over [100 billion stars](https://www.space.com/25959-how-many-stars-are-in-the-milky-way.html) in our galaxy, and over [2 trillion galaxies](https://www.skyatnightmagazine.com/space-science/how-many-galaxies-in-universe) in the observable universe. How come we haven't seen any evidence of life outside Earth? Are we the first? Or the last? The only ones? The apparent contradiction between the high probability of extraterrestrial civilizations' existence and complete lack of evidence for them has been puzzling scientists and philosophers for centuries. As you have probably heard, the question is now widely known as the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) thanks to the physicist [Enrico Fermi](https://en.wikipedia.org/wiki/Enrico_Fermi) who, during a casual conversation with his colleagues about UFOs in the summer of 1950, asked: "But where is everybody?"
 
@@ -42,26 +42,34 @@ Naturally, the equation is highly speculative and depending on the values of the
 
 ## Different Solutions
 
-There are many proposed solutions to the Fermi Paradox. As it frequently happens with ideas, (as well as ideologies and philosophies), they evolve with time. The more humanity learns about itself the more we shape our perception of the universe. Starting with antropo- and geocentrism, we have now moved from the very center of the universe to a tiny insignificant speck of dust in the infinite cosmos. 
+There are many proposed solutions to the Fermi Paradox. As it frequently happens with ideas, ideologies and philosophies, they evolve over time. The more humanity learns about itself the more we shape our perception of the universe. Starting with antropo- and geocentrism, we have now moved from the very center of the universe to a tiny insignificant speck of dust in the infinite cosmos. 
 
 The same goes for the Fermi paradox solutions. With different technologies and ideas evolving over the decades, the proposed solutions have been reflecting the most up-to-date knowledge and beliefs. For example, as we deepened our understanding of the unfathomably complex mechanisms behind the emergence of life, the [Rare Earth](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis) hypothesis gained popularity. 
 
-Or as humanity started to explore the possibilities of artificial intelligence and virtual reality, the [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis) became quite appealing (especially in sci-fi movies). 
+Or as humanity started to explore the possibilities of artificial intelligence and virtual reality, the [Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis) became quite appealing, particularly in sci-fi movies an novels. 
 
 Some ideas are somewhat more optimistic, like the [Zoo Hypothesis](https://en.wikipedia.org/wiki/Zoo_hypothesis). And although it implies that humanity is nothing but a cosmic zoo exhibit, too primitive to be considered equal, at least it suggests that there are other civilizations out there and they are benevolent. 
 
-Others are more pessimistic. The [Great Filter](https://en.wikipedia.org/wiki/Great_Filter) is a direct reflection of humanity's fears of self-destruction as well as our understanding of how fragile and improbable life is. What if every civilization is doomed to fail and destroy itself before it reaches the stars? 
+Others are more pessimistic. The [Great Filter](https://en.wikipedia.org/wiki/Great_Filter) is a direct reflection of humanity's fears of self-destruction and our understanding of how fragile and improbable life is. What if every civilization is doomed to fail and destroy itself before it reaches the stars? 
 
 And yet my favourite proposed solution is the one that I put in the title of this piece. **The Dark Forest theory**.
 
 # The Dark Forest
 
-The Dark Forest theory gets its name from the second book in the amazing Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). I believe, it's best to introduce the theory in the words of the author himself:
+The Dark Forest theory gets its name from the second book in the amazing Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past), although the concept itself is much older and similar ideas had been discussed already in the 1980s. 
+
+The theory is based on two main assumptions about the universe and life in it:
+- Survival is the primary need of every civilization
+- Civilizations continuously grow and expand over time, but the total amount of resources in the universe is finite
+
+The logical conclusion is that every civilization would view others as a potential threats to its own existence. Even more so, given a chance, every civilization would try to eliminate any potential threats before they have a chance to grow and pose a danger. So the proposed solution to the Fermi Paradox is that many civilizations exist in the universe but they are forced to remain silent and hidden to avoid being detected and destroyed by others. 
+
+In Liu Cixin's own words:
 
 > The universe is a dark forest. Every civilization is an armed hunter stalking through the trees like a ghost, gently pushing aside branches that block the path and trying to tread without sound. Even breathing is done with care. The hunter has to be careful, because everywhere in the forest are stealthy hunters like him. If he finds other life—another hunter, an angel or a demon, a delicate infant or a tottering old man, a fairy or a demigod—there’s only one thing he can do: open fire and eliminate them. In this forest, hell is other people. An eternal threat that any life that exposes its own existence will be swiftly wiped out. This is the picture of cosmic civilization. It’s the explanation for the Fermi Paradox.
-> ― Liu Cixin, The Dark Forest
+> *― Liu Cixin, The Dark Forest*
 
-(important assumption -- both civilizations have the ability to destroy each other)
+Naturally, not all civilizations are considered to be the same. Some are less technologically advanced, some could be more hostile and aggressive, others more peaceful and cooperative. A civilization could be a "delicate infant" taking its first technological steps and venturing out into space or a "tottering old man" close to the end of its existence. But in the following sections, we'll show that none of this matters in the deep darkness of the cosmic forest.
 
 <p align="center">
 <img src="images/the_dark_forest.png" alt="drawing" style="width:400px;"/>
@@ -69,7 +77,12 @@ The Dark Forest theory gets its name from the second book in the amazing Liu Cix
 
 # Space Prisoners  
 
-![Image by author](images/c1_c2_prisoners_game.png)
+> “Successful cooperation does not equate to successful understanding.”
+> *― Liu Cixin, The Dark Forest*
+
+In Game Theory, one of the best known textbook examples of a game is a [Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). It's a thought experiment where two rational agents have to make a decision to either cooperate or betray each other. The payoffs for the agents depend on the choices they make. Unless the game is played sequentially, there's no way for the agents to communicate, learn each other's intentions and coordinate actions. As a result, the rational choice for each agent is to betray the other, even though the best outcome for both would be to cooperate. 
+
+This setting is very similar to the Dark Forest theory. Each civilization is a rational agent trying to maximize its own survival chances. There's no way to truly learn the intentions of others and there is a limited number of actions that can be taken. 
 
 Let's start with an illustration of the decisions that two cosmic civilizations can make, trying to closely follow the Liu Cixin's terminology from the original book. First, a few key definitions:
 
@@ -77,20 +90,19 @@ Let's start with an illustration of the decisions that two cosmic civilizations 
 - $d_n$ - payoff that civilizations $C_n$ gets for destroying the other civilization
 - $f_n$ - payoff that civilizations $C_n$ gets for befriending the other civilization
 
+![Image by author](images/c1_c2_prisoners_game.png)
+
 Civilization $C_1$ starts the game. It has two options to start with: **Broadcast** and **Do nothing**. If it chooses to **Broadcast**, it will send a signal to the universe, revealing its location. If it chooses to **Do nothing**, it will remain silent and hidden. 
 
 If civilization $C_2$ receives a signal from $C_1$ (left branch), is can choose to **Destroy** the sender, ignore it and **Do nothing** or **Broadcast** itself. Destroying the sender would result in an infinitely negative payoff for $C_1$ and a a non-negative payoff $d_2$ for $C_2$. Doing nothing would result in a payoff of $0$ for both civilizations. Finally, broadcasting would reveal the location of $C_2$ for $C_1$ which will act next.
 
 Having recieved a signal from $C_2$, $C_1$ has the same **Destroy** and **Do nothing** options, but also has the option to **Befriend** the other civilization. Destroying $C_2$ naturally would lead to an infinitely negative payoff for $C_2$ and a non-negative payoff $d_1$ for $C_1$. Doing nothing would once again result in a payoff of $0$ for both civilizations, and befriending would result in a non-negative payoff of $f_1$ for $C_1$ and $f_2$ for $C_2$.
 
-The right branch of the tree represents the case where $C_1$ decides to stay silent, so the game essentially starts over with $C_2$.
+The right branch of the tree represents the case where $C_1$ decides to stay silent, so the game essentially starts over with $C_2$ as the first actor.
 
-Now let's try to find Nash equilibria for this game. We'll do this analytically, and then we'll simulate the game in Python. 
+Now let's try to find Nash equilibria for this game. 
 
 ## Analytical Solution
-
-> “Successful cooperation does not equate to successful understanding.”
-> ― Liu Cixin, The Dark Forest
 
 Let's start untangling the game tree by taking a closer look at the left branch where **broadcast from $C_1$ has already happened**. We will start from the bottom and work our way up.
 
@@ -133,12 +145,8 @@ So should we all just be friends and send greetings left and right? Well, not so
 
 ## Weak and Strong Civilizations 
 
-> “do you know what the greatest expression of regard for a race or civilization is?” “No, what?” “Annihilation. That’s the highest respect a civilization can receive. They would only feel threatened by a civilization they truly respect.”
-> ― Liu Cixin, The Dark Forest
-
-<p align="center">
-<img src="images/neat_part.png" alt="drawing" style="width:300px;"/>
-</p>
+> “Do you know what the greatest expression of regard for a race or civilization is?” “No, what?” “Annihilation. That’s the highest respect a civilization can receive. They would only feel threatened by a civilization they truly respect.”
+> *― Liu Cixin, The Dark Forest*
 
 Let's introduce the concept of a weak and a strong civilization. A weak civilization is the one that does not have the ability to destroy others. It might not have reached the necessary technological level to do so or its resources are insufficient. A strong civilization, on the other hand, can wipe out others.
 
@@ -176,6 +184,10 @@ From this result alone it's already clear that for a weak civilization, it's bet
 
 ## Incomplete Information and Why Beliefs Matter
 
+<p align="center">
+<img src="images/neat_part.png" alt="drawing" style="width:300px;"/>
+</p>
+
 The result above, devastating for $C_1$, is only true if $C_2$ knows or, rather, *believes*, that $C_1$ is weak. How would the game unfold if despite $C_1$ being weak, $C_2$ would not be sure about it? 
 
 We are now entering a domain of games with incomplete information, where players may not know strategies, payoffs, or "types" of other players. In our case, a civilization may only know its own strength, but not the strength of the other civilization and has to make decisions based on beliefs.
@@ -191,20 +203,18 @@ Let $p$ be the belief probability that $C_1$ is weaker, $q$ be the belief that i
 
 Putting it all together and using belief probabilities as weights, we get the final payoff for $C_2$ as a function of $p$ and $q$:
 
-$$p \cdot F_2 + q \cdot f_2 + (1-p-q)\cdot(-D_2)$$
+$$\text{Total Payoff}_{C_2}(p, q) = p \cdot F_2 + q \cdot f_2 + (1-p-q)\cdot(-D_2)$$
 
-Remembering that $D_2 \rightarrow \infty$, it becomes clear that no matter the beliefs of $C_2$, the percpective of being occupied (with a potential of being completely wiped out) would outweigh any potential benefits of replying. So what is the reasonable thing for $C_2$ to do? Obviously nothing, just stay silent and hidden.
+Remembering that $D_2 \rightarrow \infty$, it becomes clear that no matter the beliefs of $C_2$, the percpective of being occupied (with a potential of being completely wiped out) would outweigh any potential benefits of replying:
+
+$$\text{Total Payoff}_{C_2}(p, q) \rightarrow -\infty$$
+
+
+So what is the reasonable thing for $C_2$ to do? Obviously nothing. Just stay silent and hidden.
 
 But then comes another realization. What if $C_1$ is planning to expand and will eventually detect and threaten $C_2$ anyway? How can $C_2$ prevent this from happening? The answer is simple. Destroy a potential competitor $C_1$ before it has a chance to grow. And if $C_2$ does not yet have the power to do so, it's in their civilization's best interest to start developing the ultimate weapon as soon as possible hoping to stay undetected in the meantime. 
 
 Now all of this is very gloomy and pessimistic. Surely there are friendly aliens out there who are as curious, open-minded, and peaceful as human civilization will hopefully be sometime in the future? Shouldn't we actively try to reach out to them and establish contact? Well, let's see how this would play out from the perspective of the original messenger, $C_1$.
-
-
-<!-- ## Simulating the game in Python
-
-Now before we finalise our journey through the tree, let's see how we can get to the same result by simulating the game in Python with the help of the `nashpy` library.  -->
-
-
 
 # Extending to N civilizations
 
@@ -227,7 +237,7 @@ Combining the two terms together, we get the total payoff for $C_1$ after sendin
 
 $$
 \begin{align*}
-\text{Total Payoff} &=  pN \cdot P_1(f_1, F_1) + (1-p)N \cdot (-D_1) \\
+\text{Total Payoff}_{C_1}(p, q) &=  pN \cdot P_1(f_1, F_1) + (1-p)N \cdot (-D_1) \\
                     &= N \cdot (p \cdot P_1(f_1, F_1) - (1-p) \cdot D_1)
 \end{align*}
 $$
@@ -236,7 +246,7 @@ Given that $D_1 \rightarrow \infty$, the term $(1-p) \cdot D_1$ would dominate a
 
 $$
 \begin{align*}
-\text{Total Payoff} &\propto - (1-p) \cdot D_1\\
+\text{Total Payoff}_{C_1}(p, q) &\propto - (1-p) \cdot D_1\\
                     &\propto -\infty
 \end{align*}
 $$
@@ -258,7 +268,7 @@ In the eyes of external observer, who would dare to broadcast their location? --
 # How screwed are we? 
 
 > "There is a fear of the night that is begotten of ignorance and superstition, a nightmare fear, the fear of the impossible; and there is another fear of the night―of the starlit night―that comes with knowledge, when we see in its true proportion this little life of ours..." 
-> ― H.G. Wells, From An Observatory
+> *― H.G. Wells, From An Observatory*
 
 Humanity has been whispering into the void ever since the first radio waves started travelling through space. Most of the signals that leaked into the universe were not intentionally sent to communicate with extraterrestrial civilizations, but rather a byproduct of our technological progress. However, some attempts were symbolically intentional, like the [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) or the [Voyager Golden Record](https://en.wikipedia.org/wiki/Voyager_Golden_Record). 
 
@@ -406,10 +416,10 @@ So the worst (best?) case scenario is that there are around **340 civilizations*
 # So what to do?
 
 > “Staying alive is not enough to guarantee survival. Development is the best way to ensure survival.”
-> ― Liu Cixin, The Dark Forest
+> *― Liu Cixin, The Dark Forest*
 
 > "Since, in the long run, every planetary society will be endangered by impacts from space, every surviving civilization is obliged to become spacefaring — not because of exploratory or romantic zeal, but for the most practical reason imaginable: staying alive."
-> ― Carl Sagan, Pale Blue Dot
+> *― Carl Sagan, Pale Blue Dot*
 
 
 
