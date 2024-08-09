@@ -10,7 +10,7 @@ Besides the pleasant shivers down my spine, I also got a fascinating idea to pla
 If you don't mind mild spoilers for the book series, dive in for your daily dose of man-made horrors beyond comprehension. And remember: [YOU ARE BUGS](https://www.youtube.com/watch?v=tEBIbJrUYZk)!
 
 <p align="center">
-<img src="images/you_are_bugs.png" alt="YOU ARE BUGS" style="width:400px;"/>
+<img src="images/you_are_bugs.png" alt="YOU ARE BUGS" style="width:350px;"/>
 </p>
 
 # But Where is Everybody?
@@ -36,7 +36,7 @@ where:
 Naturally, the equation is highly speculative and depending on the values of the unknown (and unknowable) parameters, the result can be bent in any direction depending on the author's bias. For example, the [Wikipedia page](https://en.wikipedia.org/wiki/Drake_equation#Range_of_results) lists the ranges for over optimistic and over pessimistic estimates of the parameters resulting in the number of civilizations in the galaxy ranging from $0$ to $1.6 \times 10^7$. Not the most precise estimate, is it?
 
 <p align="center">
-<img src="images/precise_estimates.png" alt="drawing" style="width:400px;"/>
+<img src="images/precise_estimates.png" alt="drawing" style="width:350px;"/>
 </p>
 
 
@@ -62,18 +62,18 @@ The theory is based on two main assumptions about the universe and life in it:
 - Survival is the primary need of every civilization
 - Civilizations continuously grow and expand over time, but the total amount of resources in the universe is finite
 
-The logical conclusion is that every civilization would view others as a potential threats to its own existence. Even more so, given a chance, every civilization would try to eliminate any potential threats before they have a chance to grow and pose a danger. So the proposed solution to the Fermi Paradox is that many civilizations exist in the universe but they are forced to remain silent and hidden to avoid being detected and destroyed by others. 
+The logical conclusion is that every civilization would view others as a potential threats to its own existence. The very existence of life on a given planet would be a signal to others that there are either resources to be harvested or a potential threat to be eliminated. Given a chance, every civilization would try to eliminate threats before they have a chance to grow and pose a danger. So the proposed solution to the Fermi Paradox is that many civilizations exist in the universe but they are forced to remain silent and hidden for fear of being detected and destroyed by others. The universe is quiet, dangerous and dark. 
 
 In Liu Cixin's own words:
 
 > The universe is a dark forest. Every civilization is an armed hunter stalking through the trees like a ghost, gently pushing aside branches that block the path and trying to tread without sound. Even breathing is done with care. The hunter has to be careful, because everywhere in the forest are stealthy hunters like him. If he finds other life—another hunter, an angel or a demon, a delicate infant or a tottering old man, a fairy or a demigod—there’s only one thing he can do: open fire and eliminate them. In this forest, hell is other people. An eternal threat that any life that exposes its own existence will be swiftly wiped out. This is the picture of cosmic civilization. It’s the explanation for the Fermi Paradox.
 > *― Liu Cixin, The Dark Forest*
 
-Naturally, not all civilizations are considered to be the same. Some are less technologically advanced, some could be more hostile and aggressive, others more peaceful and cooperative. A civilization could be a "delicate infant" taking its first technological steps and venturing out into space or a "tottering old man" close to the end of its existence. But in the following sections, we'll show that none of this matters in the deep darkness of the cosmic forest.
-
 <p align="center">
-<img src="images/the_dark_forest.png" alt="drawing" style="width:400px;"/>
+<img src="images/the_dark_forest.png" alt="drawing" style="width:350px;"/>
 </p>
+
+Naturally, not all civilizations are considered to be the same. Some are less technologically advanced, some are more, some could be hostile and aggressive, others peaceful and cooperative. A civilization could be a "delicate infant" taking its first technological steps and venturing out into space or a "tottering old man" close to the end of its existence. But in the following sections, we'll show that none of this matters in the deep darkness of the cosmic forest.
 
 # Space Prisoners  
 
@@ -90,7 +90,9 @@ Let's start with an illustration of the decisions that two cosmic civilizations 
 - $d_n$ - payoff that civilizations $C_n$ gets for destroying the other civilization
 - $f_n$ - payoff that civilizations $C_n$ gets for befriending the other civilization
 
-![Image by author](images/c1_c2_prisoners_game.png)
+<p align="center">
+<img src="images/c1_c2_prisoners_game.png" alt="Image by author" style="width:900px;"/>
+</p>
 
 Civilization $C_1$ starts the game. It has two options to start with: **Broadcast** and **Do nothing**. If it chooses to **Broadcast**, it will send a signal to the universe, revealing its location. If it chooses to **Do nothing**, it will remain silent and hidden. 
 
@@ -156,7 +158,9 @@ We will assume that if $C_2$ chooses to **Befriend** it would effectively occupy
 
 To make things worse for $C_1$, stronger $C_2$ can now forcefully **Befriend** (occupy) $C_1$ as soon as it learns about its location. 
 
-![Image by author](images/c1_c2_weak_c1.png)
+<p align="center">
+<img src="images/c1_c2_weak_c1.png" alt="Image by author" style="width:900px;"/>
+</p>
 
 
 Once again, let's build a payoffs matrix assuming that the initial broadcast of $C_1$ has already happened. This time we can remove the **Destroy** option for $C_1$ as it's no longer available:
@@ -256,7 +260,7 @@ This means that as long as there is a singe strong civilization capable of figur
 But wait, there is a civilization like that. It's us.
 
 <p align="center">
-<img src="images/Ben_kenobi.png" alt="drawing" style="width:400px;"/>
+<img src="images/Ben_kenobi.png" alt="drawing" style="width:350px;"/>
 </p>
 
 
@@ -409,7 +413,7 @@ $$
 So the worst (best?) case scenario is that there are around **340 civilizations** in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
 
 <p align="center">
-<img src="images/surrounded_earth.png" alt="we are surrounded" style="width:400px;"/>
+<img src="images/surrounded_earth.png" alt="we are surrounded" style="width:350px;"/>
 </p>
 
 
