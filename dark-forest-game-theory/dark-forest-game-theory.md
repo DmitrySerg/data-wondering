@@ -416,15 +416,22 @@ So the worst (best?) case scenario is that there are around **340 civilizations*
 <img src="images/surrounded_earth.png" alt="we are surrounded" style="width:350px;"/>
 </p>
 
+# Criticism of Dark Forest theory
 
 # So what to do?
-
-> “Staying alive is not enough to guarantee survival. Development is the best way to ensure survival.”
-> *― Liu Cixin, The Dark Forest*
-
 > "Since, in the long run, every planetary society will be endangered by impacts from space, every surviving civilization is obliged to become spacefaring — not because of exploratory or romantic zeal, but for the most practical reason imaginable: staying alive."
 > *― Carl Sagan, Pale Blue Dot*
 
+In the short run, we're safe. The chances of any civilization detecting us based on our current space chatter are basically zero. So are the chances that there even is anyone out there listening. However, what would be the most logical step for humanity to ensure our survival in the long run? Well, exactly what one of the dark forest assumptions suggests — expand. The very reason why a civilization might be considered dangerous by others could be a way to secure its existence. 
 
+Becoming a spacefaring civilization and expanding beyond the confines of the Earth would be the most practical way for humanity to advance and prosper in the future. It would allow us to harvest the resources of the solar system and beyond, instead of depleting the limited resources of our home planet and polluting it beyond the point of no return in the process. It would also allow us to establish a backup of our civilization in case of a global catastrophe, be it natural, man-made, or even a potential cosmic threat. 
 
-# Criticism of Dark Forest theory
+Imagine a future, where humanity has established colonies on Mars, the Moon, and beyond. Where we have the technology to harness the energy of the Sun and the resources of the asteroids. Where we have the means to protect our planet from cosmic threats and to explore the universe. Where we have the wisdom to cooperate and coexist as humans, not as nations. 
+
+The most fascinating thing is that with the already existing technology and the resources available to us, we can start building this future today. One of the most diligent overviews of the current state and future opportunities available to humanity to become a spacefaring civilization is done by Christopher Wanjek in his thought-provoking book [Spacefarers: How Humans Will Settle the Moon, Mars, and Beyond](https://www.amazon.com/Spacefarers-Humans-Will-Settle-Beyond/dp/067498448X). I highly recommend it to anyone interested in the practicalities of space exploration and colonization. Unlike the Dark Forest theory, it's a very optimistic and inspiring read. 
+
+There numerous examples of existing govermental and private companies that Wanjek mentiones in his book that are already working on making this future a reality. One of the most prominent, of course, is the [SpaceX](https://www.spacex.com/) company, for which the goal is [to make life multiplanetary](https://www.youtube.com/watch?v=v9lAGmWhcZM). They have already developed the [Starship](https://www.spacex.com/vehicles/starship/), a reusable spacecraft with the biggest payload capacity ever built, that is designed to carry humans to Mars and beyond. 
+
+Although SpaceX is, undoubtedly, the most ambitious and well-known company in the space industry, there are many others that are working on similar goals. In the past few years we have seen a surge in the number of private companies that are developing new technologies and business models to make space exploration and colonization more affordable and sustainable. One of the most promising areas of development is the [asteroid mining](https://theweek.com/science/asteroid-mining-money-to-be-made-in-space). Asteroids are rich in valuable resources like water, metals, and rare earth elements, that could be used to sustain Earth population, human colonies in space, and to support further exploration. 
+
+The future of humanity in space can be bright and full of opportunities. It's up to us to make it happen.
