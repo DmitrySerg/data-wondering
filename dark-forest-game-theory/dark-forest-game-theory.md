@@ -1,9 +1,27 @@
 # Where be the Aliens? Game Theory, Dark Forest, and Earth's Survival
 
+- [Where be the Aliens? Game Theory, Dark Forest, and Earth's Survival](#where-be-the-aliens-game-theory-dark-forest-and-earths-survival)
+- [Introduction](#introduction)
+- [But Where is Everybody?](#but-where-is-everybody)
+  - [Different Solutions](#different-solutions)
+- [The Dark Forest](#the-dark-forest)
+- [Space Prisoners](#space-prisoners)
+  - [Analytical Solution](#analytical-solution)
+  - [Weak and Strong Civilizations](#weak-and-strong-civilizations)
+  - [Incomplete Information and Why Beliefs Matter](#incomplete-information-and-why-beliefs-matter)
+- [Extending to N civilizations](#extending-to-n-civilizations)
+- [How screwed are we?](#how-screwed-are-we)
+- [Criticism of Dark Forest theory](#criticism-of-dark-forest-theory)
+- [So What to Do?](#so-what-to-do)
 
-# Introduction 
 
-Hello there! I have always greatly enjoyed (over-)thinking about the universe and its mysteries. Imagining other worlds, overindulging myself in sci-fi books and movies, replaying the Mass Effect trilogy over and over again — all the usual stuff for a person who loved astronomy and physics just a little bit too much as a kid. And yet it was only a year ago that I learned about the existence of Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). After having devoured all three books without even noticing the [time passing](https://www.youtube.com/watch?v=yS0yBgZrVas), I was left with my favourite post-great-read feeling. One of existential dread and cosmic horror.
+# Introduction
+
+Hello there! 
+
+This is the inaugural post of my newly created [Data Wondering blog](https://datawondering.com/), where I will be semi-regularly sharing articles and research related to Data Science, Machine Learning, and other topics I’m curious about. Welcome!
+
+I have always greatly enjoyed (over-)thinking about the universe and its mysteries. Imagining other worlds, overindulging myself in sci-fi books and movies, replaying the Mass Effect trilogy over and over again — all the usual stuff for a person who loved astronomy and physics just a little bit too much as a kid. And yet it was only a year ago that I learned about the existence of Liu Cixin's trilogy: [Remembrance of Earth's Past](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past). After having devoured all three books without even noticing the [time passing](https://www.youtube.com/watch?v=yS0yBgZrVas), I was left with my favourite post-great-read feeling. One of existential dread and cosmic horror.
 
 Besides the pleasant shivers down my spine, I also got a fascinating idea to play with. So in this article, I want to share my thoughts on one of the most intriguing ideas explored in the trilogy: the Dark Forest theory. 
 
@@ -143,7 +161,15 @@ Continuing the elimination process we can now see that regardless of the choice 
 |---------|------------|
 | **Befriend** | $f_1, f_2$|
 
+As a side note, we could have started the elimination process by comparing the Destroy strategy to the Befriend. However, since both Destroy and Do nothing are dominated by Befriend we would end up with the same pure strategy Nash equilibrium. The order of elimination does not change the outcome.
+
 So should we all just be friends and send greetings left and right? Well, not so fast.
+
+<p align="center">
+<img src="images/oh.png" alt="Image by author" style="width:300px;"/>
+</p>
+
+
 
 ## Weak and Strong Civilizations 
 
@@ -154,7 +180,7 @@ Let's introduce the concept of a weak and a strong civilization. A weak civiliza
 
 Getting back to our game tree, we will assume that $C_1$ is now a weak player and can no longer annihilate anyone. $C_2$ is still strong and can destroy $C_1$ if it chooses to. Moreover, the freidnship payoffs are shifting in favor of $C_2$ as it can now exploit $C_1$ without any fear of retaliation. 
 
-We will assume that if $C_2$ chooses to **Befriend** it would effectively occupy $C_1$ and get all of its resources. So the payoff for $C_2$ would be $F_1 \gg f_2 > 0$, while the payoff for $C_1$ would be similar to complete destruction, let's call it $-D_1$, where $D_1 \rightarrow \infty$.
+We will assume that if $C_2$ chooses to **Befriend** it would effectively occupy $C_1$ and get all of its resources. So the payoff for $C_2$ would be $F_2 \gg f_1 > 0$, while the payoff for $C_1$ would be similar to complete destruction, let's call it $-D_1$, where $D_1 \rightarrow \infty$.
 
 To make things worse for $C_1$, stronger $C_2$ can now forcefully **Befriend** (occupy) $C_1$ as soon as it learns about its location. 
 
@@ -410,7 +436,7 @@ $$
 \end{align*}
 $$
 
-So the worst (best?) case scenario is that there are around **340 civilizations** in the 100-light-year bubble around Earth that could pottentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
+So the worst (best?) case scenario is that there are around **340 civilizations** in the 100-light-year bubble around Earth that could potentially be listening to the signals from space, and the best (worst?) case scenario is that there are likely none. 
 
 <p align="center">
 <img src="images/surrounded_earth.png" alt="we are surrounded" style="width:350px;"/>
@@ -418,7 +444,29 @@ So the worst (best?) case scenario is that there are around **340 civilizations*
 
 # Criticism of Dark Forest theory
 
-# So what to do?
+The Dark Forest theory is a fascinating and thought-provoking concept, and, as all theories that do not have any proper empirical evidence behind them, it has its fair share of criticism. 
+
+The main patterns of reasoning can be grouped up in the following categories:
+- Humanity's history, morality, and ethics
+- Civilizatoin growth and availability of resources
+- Speed of travel 
+- Cost of destruction
+
+Let's start with the first one. All theories are cultural products of their time and place, and the Dark Forest theory is no exception. It reflects the fears and anxieties of the modern world, where the threat of complete mutually assured nuclear annihilation resulted in the fragial Cold War deterrence. And for those who have read the Liu Cixin's thrilogy, the parallel with the "Deterrance Era" in the book is obvious. The same goes for the ideas of constant expansion, colonization, and fight for resources. These have always been the struggles of humanity, so it's no wonder that they are projected into the universe. 
+
+Yet the history of humanity is not only a history of wars and conflicts, but also of cooperation, diplomacy, and cultural exchange. So the opponents of the Dark Forest theory argue that it's too pessimistic and does not take into account the potential for peaceful coexistence and mutual benefit. In addition, they argue that the assumption that a civilization can act as a single entity and choose to "attack", "destroy", etc. collectively is also questionable. Just like on Earth, there could be different factions, groups, and individuals with different goals and motivations. 
+
+Personally, I think these are fair points. But only from the perspective of the only civilization that is currently known to exist -- our own. This is yet another N=1 problem that we have to deal with when thinking about the universe. We can only project our own experiences, values, and beliefs onto the unknown. But the potential diversity of cosmic life, experiences, cultures, and ways of thinking is utterly unimaginable to us. 
+
+A little bit more convincing criticism comes from the practicalities of the Dark Forest theory. The assumption that civilizations would expand to the point of resource exhaustion is not very realistic. The resources in the universe are vast and practically infinite. A [single asteroid](https://www.space.com/psyche-metal-asteroid-composition) could have $10^5$ more metal than available to us on Earth. Even a [Type II civilization](https://en.wikipedia.org/wiki/Kardashev_scale), capable of harnessing the energy of a whole star, would have practically limitless resources with no apparent reason to fight for them with others. Only a very specific set of circumstances, like the ones described in the Three Body Problem book, would lead to such a dire situation.
+
+But then comes another question: how does one travel between stars? The distances in the universe are unfathomably vast, and faster than light travel is a big comic no-no given our current theoretical knowledge. Even if one wanted to destroy a distant civilization, it would take thousands of years to get there. And by the time they arrive, the civilization might have already gone extinct, evolved, or expanded beyond recognition. So perhaps, simply not bothering anyone and focusing on one's own development would be a more rational choice.
+
+Finally, the cost of destruction is another point of criticism. With our current understanding of physics, it would take an enormous amount of energy to destroy a planet or a star. Collecting, transporting, and focusing such an amount of energy is a technological challenge that is currently beyond our understanding. However, once again, we are projecting our own limitations and Type II+ civilizations might have the means to do so.
+
+As a final remark related to the criticism of the Dark Forest theory, I would like to add that despite all the improbabilities of the alien civilizations existence and miniscule chances of us being detected, the SETI institute [has stated](https://www.seti.org/seti-institute/project/details/broadcasting-message) that "*broadcasting might be dangerous, literally calling attention to our existence*". 
+
+# So What to Do?
 > "Since, in the long run, every planetary society will be endangered by impacts from space, every surviving civilization is obliged to become spacefaring — not because of exploratory or romantic zeal, but for the most practical reason imaginable: staying alive."
 > *― Carl Sagan, Pale Blue Dot*
 
@@ -432,6 +480,12 @@ The most fascinating thing is that with the already existing technology and the 
 
 There numerous examples of existing govermental and private companies that Wanjek mentiones in his book that are already working on making this future a reality. One of the most prominent, of course, is the [SpaceX](https://www.spacex.com/) company, for which the goal is [to make life multiplanetary](https://www.youtube.com/watch?v=v9lAGmWhcZM). They have already developed the [Starship](https://www.spacex.com/vehicles/starship/), a reusable spacecraft with the biggest payload capacity ever built, that is designed to carry humans to Mars and beyond. 
 
-Although SpaceX is, undoubtedly, the most ambitious and well-known company in the space industry, there are many others that are working on similar goals. In the past few years we have seen a surge in the number of private companies that are developing new technologies and business models to make space exploration and colonization more affordable and sustainable. One of the most promising areas of development is the [asteroid mining](https://theweek.com/science/asteroid-mining-money-to-be-made-in-space). Asteroids are rich in valuable resources like water, metals, and rare earth elements, that could be used to sustain Earth population, human colonies in space, and to support further exploration. 
+Although SpaceX is, undoubtedly, the most ambitious and well-known company in the space industry, there are many others that are working on similar goals. In the past few years we have seen a surge in the number of private companies that are developing new technologies and business models to make space exploration and colonization more affordable and sustainable. For example, one of the most promising areas of development is the [asteroid mining](https://theweek.com/science/asteroid-mining-money-to-be-made-in-space). Asteroids are rich in valuable resources like water, metals, and rare earth elements, that could be used to sustain Earth population, human colonies in space, and to support further exploration. 
+
+As we push the boundaries of what is possible, the impact of these advancements will not only be felt in space but also here on Earth. Technologies developed for space exploration could revolutionize industries, create new economic opportunities, and help address some of the most pressing challenges, such as resource scarcity and environmental degradation. Ultimately, our journey into space is not just about exploration or economic gain, it is about the long-term survival and evolution of our species. The stars may seem distant, but the decisions we make today will determine whether they become our new home or remain beyond our reach.
 
 The future of humanity in space can be bright and full of opportunities. It's up to us to make it happen.
+
+<p align="center">
+<img src="images/happy_earth.png" alt="we are surrounded" style="width:350px;"/>
+</p>
