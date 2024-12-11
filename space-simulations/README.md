@@ -2,4 +2,4 @@
 
 From one birthday to another. 
 
-![](solar_system_animation.gif)
+![](notebooks/solar_system_animation.gif)
